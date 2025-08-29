@@ -76,4 +76,4 @@ function deleteTask(taskItem) {
 
 // 🚀 FUNCIONES QUE SE EJECUTAN AL INICIAR
 loadTasks();
-loadTasks();
+
