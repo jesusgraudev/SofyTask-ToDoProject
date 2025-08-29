@@ -176,6 +176,13 @@ body.dark-mode ul li {
   background: #718093;
 }
 
+body.dark-mode ul li button {
+  color: white;
+}
+body.dark-mode ul li button:hover {
+  color: rgb(253, 249, 191);
+}
+
 body.dark-mode ul li:hover {
   background: #636e72;
 }
