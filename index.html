@@ -6,7 +6,7 @@
     <title>SofyTask | ToDoList Project</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="dark-mode">
+<body>
     <header>
         <h1>📄SofyTask <span id="versionSpan">Version 0.0.1-beta.1</span></h1>
         <button class="darkModeButton" id="darkModeButton">🌙 Modo Oscuro</button>
@@ -17,14 +17,14 @@
 
             <h2>Gestor de Tareas</h2>
 
-            <form action="" class="formTaskManager">
+            <form action="" class="formTaskManager" id="formTaskManager">
 
-                <input type="text" placeholder="Escribe una Tarea">
-                <button type="submit">Crear Tarea</button>
+                <input type="text" placeholder="Escribe una Tarea" id="taskInput">
+                <button type="submit" id="createTaskButton">Crear Tarea</button>
 
             </form>
 
-            <ul></ul>
+            <ul id="taskList"></ul>
 
         </div>
     </main>
